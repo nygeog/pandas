@@ -1,0 +1,1 @@
+df['time_dif'] = df['datetime'] - df['datetime'].shift().fillna(0)
