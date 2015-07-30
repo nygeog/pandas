@@ -1,0 +1,1 @@
+df['time_min'] = df['datetime'].map(lambda x: x.strftime('%M'))
