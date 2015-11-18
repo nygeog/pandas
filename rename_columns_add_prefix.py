@@ -1,0 +1,1 @@
+df.rename(columns = lambda x : 'variable_' + x)
