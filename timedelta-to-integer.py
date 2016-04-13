@@ -1,0 +1,1 @@
+dfC['days_dif'] = (dfC.time_dif / np.timedelta64(1, 'D')).astype(int) #http://stackoverflow.com/questions/25646200/python-convert-timedelta-to-int-in-a-dataframe
