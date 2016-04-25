@@ -7,3 +7,7 @@ df = df[(df.state == 'NY') | (df.state == 'NJ') | (df.state == 'PA')]
 # 1 <> 1 # false
 # [] is [] # false (distinct objects)
 # a = b = []; a is b # true (same object)
+
+#Query MISSING NaN
+
+df = df[df.gpssid.isnull()]
