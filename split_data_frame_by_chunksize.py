@@ -10,8 +10,6 @@ df = pd.read_csv(wp+'paratransit_cb2010_pd_pairs.csv')
 
 print df.head(10)
 
-
-
 def save_df(df, chunk_size=50000):
 	df_size = len(df.index)
 	print df_size
