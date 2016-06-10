@@ -17,3 +17,5 @@ def save_df(df, chunk_size=50000):
 		df[start:start+chunk_size].to_csv(wi+'paratransit_cb_pd_pairs_{}.csv'.format(i),index=False)
 
 save_df(df,chunk_size=50000)
+
+#http://stackoverflow.com/questions/35001645/splitting-a-pandas-data-frame-into-rows-by-count
