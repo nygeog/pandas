@@ -1,0 +1,1 @@
+dfg['minnoise'] = np.random.choice(range(1, 60), dfg.shape[0])
