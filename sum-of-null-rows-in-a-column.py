@@ -1,0 +1,1 @@
+df.LONGITUDE.isnull().sum()
